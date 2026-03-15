@@ -1,0 +1,30 @@
+# PlatformIO build folder
+.pio/
+
+# Build artifacts
+build/
+*.elf
+*.bin
+*.map
+
+# ESP-IDF generated config
+sdkconfig
+sdkconfig.old
+
+# Version file (auto generated)
+include/version.h
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+
+# VSCode local settings
+.vscode/*
+!.vscode/extensions.json
+
+# Temporary files
+*.log
+*.tmp
