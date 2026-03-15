@@ -41,14 +41,16 @@ This repository prioritizes **long-term firmware stability and maintainability**
 **Firmware Version:** v0.1.0 (Initial Setup)
 **Current Phase:** Phase 1 – Hardware Validation
 
-Current focus:
+Boot validation completed successfully.
 
-* SPI bus initialization
-* Display controller communication
-* Basic display test patterns
-* Hardware compatibility verification
+Verified:
+- ESP-IDF runtime
+- PlatformIO build pipeline
+- Firmware version auto-generation
+- Serial output and FreeRTOS execution
 
-Touch validation will follow once display communication is confirmed stable.
+Next milestone:
+SPI bus initialization for display communication.
 
 ---
 
